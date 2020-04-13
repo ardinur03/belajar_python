@@ -56,7 +56,7 @@ else:
 # contoh if else bercabang
 """
 Putri raja ingin menikah dengan syarat baik dan rajin
-"""
+
 tamu  = "cwe"
 baik  = True
 rajin = True
@@ -68,3 +68,19 @@ if baik & rajin:
         print('kita sodaraan saja!!!')
 else:
     print("hush! sana!!!")
+"""
+
+
+#perulangan while
+"""
+hitung = 0
+while hitung < 5:
+    print("Halloo Ardi!!!")
+    hitung = hitung+1
+"""
+
+# for in
+orang = ['Ardi', 'Ahmad', 'Bujank', 'Naufal', 'Diaz']
+#judul = "YT Ardi Hydra"
+for nama in orang:
+    print("Nama orangnya adalah : ", nama)
