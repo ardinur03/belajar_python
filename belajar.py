@@ -86,3 +86,75 @@ orang = ['Ardi', 'Ahmad', 'Bujank', 'Naufal', 'Diaz']
 for nama in orang:
     print("Nama orangnya adalah : ", nama)
 """
+
+# loop bercabang while
+"""
+a = 1
+while a < 5:
+    b = 0
+    while b < a:
+        print("*", end="")
+        b += 1
+    print()
+    a += 1
+"""
+# loop bercabang while
+"""
+for a in range(1,5):
+    for b in range(1,5):
+        c = a*b
+        print(c, end="  ")
+    print()
+"""
+
+
+
+# list
+"""
+orang  = ['Ardi', 'Ahmad', 'Diaz', 'Naufal']
+umur   = [18, 17, 17, 19, 36]
+mixed  = ['text', 78, 9.7]
+
+# menampilkan semua dalam lis->var
+# print(orang)
+
+# mengedit list
+# orang[1]= "Muhamad Ardi Nur Insan"
+
+# tambah data list
+# orang.append('nur insan')
+
+# hapus data list
+# del orang [4]
+print(orang)
+"""
+
+
+"""
+# dictionary
+orang = {'Nama' : 'Muhamad Ardi Nur Insan',
+        'kelas' : 'XI RPL 1',
+        'Umur' : '17 Tahun',
+        'Jenis Kelamin' : 'Laki-laki'
+}
+
+# memanggil hasil
+print("Namanya adalah : ", orang['Nama'])
+print("Umurnya adalah : ", orang['Umur'])
+
+# menambah data
+orang['Sekolah'] = 'SMK Negeri 11 Bandung'
+
+# mengedit data
+orang['Nama'] = 'Ardi Hydra'
+
+# menghapus data
+del orang['Umur']
+
+
+print("Sekolahnya adalah : ", orang)
+
+# mengeluarkan sesuai data dictionary
+for key, value in orang.items():
+    print(key + " - " + value)
+"""
