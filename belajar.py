@@ -1,12 +1,10 @@
 print("\t WELCOME TO LEARN PYTHON")
 
 # identitas about me
-"""
 Nama  = "Muhamad Ardi Nur Insan"
 Kelas = "11 RPL 1"
 print("Nama  :", Nama +"\nKelas :", Kelas)
 print("----------------\"-----\"-----------------")
-"""
 
 
 # aplikasi sederhana penanyaan Nama
@@ -158,3 +156,91 @@ print("Sekolahnya adalah : ", orang)
 for key, value in orang.items():
     print(key + " - " + value)
 """
+
+
+# list = [] - dictionary {} - tuples ()
+
+
+# nested dictionary
+data = { 1:{'nama':'ardi', 'kelas':'XI RPL 1', 'sekolah':'SMK Negeri 11 Bandung'},
+         2:{'nama':'mad', 'kelas':'XI MM 1', 'sekolah':'SMK Negeri 11 Bandung'}
+}
+
+# print(data[1]['nama']) = untuk memanggil sallah satu key awal
+"""
+for key, value in data.items():
+    print("\nKeynya : ", key)
+    for key2 in value:
+        print(key2 + "-", value[key2])
+"""
+
+
+
+
+"""
+#FUNCTION = PARAMETER, RETURN, KEYWORD ARGUMEN
+ 1. tanpa berparameter
+ 2. ada parameter
+ 3. parameter default
+ parameter = argumen
+"""
+# 1 parameter
+"""
+def printArdi(teks = 'Parameter belum di isi'):
+    print("----------")
+    print(teks)
+    print("----------")
+
+printArdi("Muhamad Ardi Nur Insan")
+printArdi("XI RPL 1")
+"""
+# 2 parameter
+"""
+def printTeks(nama = 'Parameter nama kosong!!!', kelas = 'Parameter kelas kosong!!!'):
+    print("----------------------")
+    print(nama)
+    print(kelas)
+    print("----------------------")
+
+printTeks("Muhamad Ardi Nur Insan", "XI RPL 1")
+"""
+# fungsi menggunakan return
+"""
+def hitung(a,b,c):
+    return (a*b)+c
+
+print("Hasil perkalian : ", hitung(4,5,1))
+"""
+# fungsi menggunakan keyword argumen
+"""
+def data(nama, kelas):
+    print("Nama "+nama + "  Kelas  "+ kelas)
+
+data(kelas = "XI RPL 1", nama = "Muhamad Ardi Nur Insan")
+"""
+# percobaan
+"""def coba(nama, kelas, sekolah, noHp = "nope kosong"):
+    print("Nama     : "+nama)
+    print("Kelas    : "+kelas)
+    print("Sekolah  : "+sekolah)
+    print("No Hp    : "+noHp)
+coba("Muhamad Ardi Nur insan", "XI RPL 1", "SMK Negeri 11 Kota Bandung", "08953288984")
+"""
+# *args
+"""def benda(*args):
+    for nama in args:
+        print(nama)
+benda("pulpen", "pensil", "penggaris", "penghapus")"""
+# **kwargs
+def jurusan(**jrs):
+    for nama, nilai in jrs.items():
+        print(nama, " - ", nilai)
+jurusan(MM = "Multimedia", RPL = "Rekayasa Perangkat Lunak", TKJ = "Teknik Komputer dan Jaringan")
+
+
+
+
+
+
+
+print(" ")
