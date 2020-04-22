@@ -23,7 +23,6 @@ def goStatus():
     print("Nama Monster : ", monster['name'], "\nPower        : ", monster['power'])
     startGame()
 
-
 def goFight(power, defender):
     if power['power'] > defender['power']:
          print("Anda Kuat sekali !!! anda behasil mengalahkan Boss ke 1", defender['name'])
@@ -33,10 +32,11 @@ def goFight(power, defender):
         print("Anda terlalu lemah", power['name'])
     startGame()
 
+
+
+
 def goOut():
     print("Bye..bye sampai jumpa kembali yaaa......")
-
-
 
 
 

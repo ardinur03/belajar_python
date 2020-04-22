@@ -1,7 +1,7 @@
-"""
+
 # BAGIAN 1
-# import data as d         -> untuk menimport seluruh data
-# from data import nama    -> untuk mengimport hanya bagian objek tertentu
+import data as d         #-> untuk menimport seluruh data
+#from data import nama    #-> untuk mengimport hanya bagian objek tertentu
 
 import data as d
 
@@ -9,9 +9,9 @@ import data as d
 print(d.person)
 print(d.nama("Jack"))
 print(d.benda)
-"""
 
-"""
+
+
 # data waktu sekarang
 import datetime
 # now = datetime.datetime.now()
@@ -24,11 +24,11 @@ import datetime
 # tampilah tahun, bulan, tgl
 now = datetime.datetime.now()
 print(now.strftime("%Y, %B, %d"))
-"""
 
 
-"""
-GLOBAL & LOCAL var
+
+
+# GLOBAL & LOCAL var
 
 
 Nama = "Ardi"           #variabel ini adalah variabel global
@@ -41,7 +41,7 @@ def bunyi():
 
 bunyi()
 print("akses dari luar metod : ", Nama)
-"""
+
 
 
 """
@@ -59,10 +59,10 @@ except:
 """
 CEK SISTEM OPERASI
 """
-import sys
-print(sys.platform)
+# import sys
+# print(sys.platform)
 
 
 
 
-print(" ")
+# 

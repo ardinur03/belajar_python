@@ -117,7 +117,7 @@ mixed  = ['text', 78, 9.7]
 # print(orang)
 
 # mengedit list
-# orang[1]= "Muhamad Ardi Nur Insan"
+# orang[0]= "Muhamad Ardi Nur Insan"
 
 # tambah data list
 # orang.append('nur insan')
