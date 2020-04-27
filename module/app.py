@@ -40,6 +40,8 @@ def bunyi():
     print("akses dari dalam metod : ", Nama)
 
 bunyi()
+
+
 print("akses dari luar metod : ", Nama)
 
 

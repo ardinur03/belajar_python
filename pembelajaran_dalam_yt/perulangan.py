@@ -1,12 +1,11 @@
 # for
-"""
 total= 0
-for x in range(1, 6):
+for x in range(1, 6): # 5 juga bisa
     print ("Masukkan bilangan ke", x)
     total = total + int(input())
 total = total / 5
 print("Rata-rata : ", total)
-"""
+
 
 # while
 n = int(input("Anda ingin menghitung berapa bilangan? "))
