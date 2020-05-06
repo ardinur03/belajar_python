@@ -101,7 +101,7 @@ def main():
         print("akhir !!!")
 main()"""
 
-class Person:
+"""class Person:
     def __init__(self, name, umur):
         self.__name = name
         self.__setUmur(umur)
@@ -126,17 +126,24 @@ def main():
 
 
 
-main()
+main()"""
 
 
 
 
 
 
+l = []
+for i in range(11):
+    if i % 2 != 0:
+        l.append(i)
+print(l)
 
+l2 = [bilangan for bilangan in range(11) if bilangan %2 != 0]
+print(l2)
 
-
-
+x = {bilangan : bilangan + 1 for bilangan in range(11) if bilangan %2 == 0}
+print (x)
 
 
 
