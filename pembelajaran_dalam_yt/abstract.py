@@ -18,5 +18,6 @@ def main():
     s =  Segitiga(5, 6)
     print(s.get_luas())
 
+
 main()
 
