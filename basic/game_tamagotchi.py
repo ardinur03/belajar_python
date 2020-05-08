@@ -4,7 +4,7 @@ monster = {'name' : name, 'power' : 400}
 boss1 = {'name' : 'Kera', 'power' : 500}
 def startGame():
     print ("1. Makan\n2. Lihat Status\n3. lawan dengan boss ke 1\n4. keluar")
-    choice = input("Anda mau apa")
+    choice = input("Anda mau apa ")
     if choice == "1":
         goEat()
     elif choice == "2":
@@ -15,7 +15,7 @@ def startGame():
         goOut()
 
 def goEat():
-    print("Amm...ammm.ammm")
+    print("Amm...ammm.ammm..ammm")
     monster['power'] += 100
     startGame()
 

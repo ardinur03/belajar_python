@@ -42,15 +42,10 @@ class Biodata:
 
     def getKelas(self):
         return self.kelas
-
-
 class siswaBaru(Biodata):
     def getJk(self, Jk):
         self.Jk = Jk
         return self.Jk
-
-
-
 biodata1 = siswaBaru('Diaz', 'XI RPL 1')
 biodata2 = Biodata('Muhamad Ardi Nur Insan', 'XI RPL 1')
 # class gabungan parent dengan child
