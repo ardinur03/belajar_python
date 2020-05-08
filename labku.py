@@ -131,11 +131,32 @@ main()"""
 
 
 
+"""def person(**kwargs):
+    for key, value in kwargs.items():
+        print(key + " - " + value)
+
+person(Nama = "Muhamad Ardi Nur Insan", Kelas = "XI RPL 1")"""
 
 
 
+class Cobi:
+    name = ''
+    kelas = ''
+    def __init__(self, name, kelas):
+        self.name = name
+        self.kelas = kelas
 
+    def getName(self):
+        return self.name
 
+    def getkelas(self):
+        return self.kelas
+
+    def biodata(self):
+        return "Nama mu : "+self.name+" Kelas mu : "+str(self.kelas)
+
+c = Cobi("ardi", 11)
+print(c.biodata())
 
 
 
