@@ -15,3 +15,5 @@ def by1(serang, defender):
 
 farming(player1)
 by1(player2, player1)
+
+

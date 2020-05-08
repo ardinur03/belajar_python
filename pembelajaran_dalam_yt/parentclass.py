@@ -29,4 +29,6 @@ class Teacher(Person):
 def main():
     c = Student("Ardi", 17, "Laki laki")
     print(c.perkenalkan_diri())
+    t = Teacher("Bu Ibu", 27)
+    print(t.perkenalkan_diri())
 main()

@@ -32,9 +32,6 @@ def goFight(power, defender):
         print("Anda terlalu lemah", power['name'])
     startGame()
 
-
-
-
 def goOut():
     print("Bye..bye sampai jumpa kembali yaaa......")
 
